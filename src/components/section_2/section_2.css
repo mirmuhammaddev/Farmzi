@@ -1,0 +1,132 @@
+.section_2 {
+    margin: 20vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 170px;
+}
+
+.section_2 .title {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.section_2 .title p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.25px;
+    color: #777777;
+}
+
+.section_2 .title h2 {
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #177165;
+}
+
+.section_2 .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section_2 .body .right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 35%;
+    gap: 70px;
+}
+
+.section_2 .body .text_row {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+}
+
+.section_2 .body .text_row .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.section_2 .body .text_row .introduction h3 {
+    font-family: Playfair Display, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: #177165;
+}
+
+.section_2 .body .text_row .introduction p {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #777777;
+}
+
+.section_2 .body .text_row .introduction h5 {
+    font-family: Playfair Display, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #177165;
+}
+
+.section_2 .body .text_row .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.section_2 .body .text_row .mission h3 {
+    font-family: Playfair Display, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: #177165;
+}
+
+.section_2 .body .text_row .mission p {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #777777;
+}
+
+.section_2 .body button {
+    border: 2px solid #177165;
+    padding: 10px 60px;
+    background-color: transparent;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #177165;
+}
+
+
+
+
+
+
+
+
+
+
+

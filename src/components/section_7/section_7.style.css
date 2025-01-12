@@ -1,0 +1,35 @@
+.each_item {
+    margin: 4rem 9rem;
+    width: 160vh;
+    height: 70vh;
+    background-image: url("../../assets/photo_of_farm.svg");
+    background-repeat: no-repeat;
+}
+
+.each_item .info_card {
+    max-width: 14em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #177165;
+    padding: 4em 2em;
+    position: absolute;
+    bottom: 4rem;
+    left: 9rem;
+}
+
+.each_item .info_card p {
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #A4D6CF;
+}
+
+.each_item .info_card h4 {
+    font-family: Playfair Display, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.75px;
+    color: #fff;
+}

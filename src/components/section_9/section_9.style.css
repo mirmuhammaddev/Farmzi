@@ -1,0 +1,116 @@
+.News_page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3.3em;
+    padding: 5em 9em;
+}
+
+.News_page .News_title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+    max-width: 80%;
+}
+
+.News_page .News_title p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.25px;
+    color: #777777;
+}
+
+.News_page .News_title h1 {
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #177165;
+}
+
+.News_page .news_cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.News_page .news_cards .each_new_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+
+.News_page .news_cards .each_new_card .description_of_news {
+    width: 34.7em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+    background-color: #E1F4F2;
+    padding: 2em;
+}
+
+.News_page .news_cards .each_new_card .description_of_news .data_of_manufacturing {
+    width: 19em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.News_page .news_cards .each_new_card .description_of_news .data_of_manufacturing p span {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #177165;
+}
+
+.News_page .news_cards .each_new_card .description_of_news .data_of_manufacturing p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #777777;
+}
+
+.News_page .news_cards .each_new_card .description_of_news h3 {
+    max-width: 80%;
+    font-family: Playfair Display, serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40.63px;
+    color: #177165;
+}
+
+.News_page .news_cards .each_new_card .description_of_news p {
+    max-width: 80%;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #777777;
+}
+
+.News_page .news_cards .each_new_card .description_of_news button {
+    border: none;
+    outline: none;
+    padding: 0.6em 4em;
+    background-color: white;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #177165;
+}

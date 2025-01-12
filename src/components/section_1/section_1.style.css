@@ -1,0 +1,103 @@
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    gap: 30px;
+    background-color: #177165;
+}
+
+.context {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main_section .context .left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 60px;
+    padding-bottom: 40px;
+}
+
+.main_section .context .left_side .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+}
+
+.main_section .context .left_side .info .author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_section .context .left_side .info .author img {
+    color: #A4D6CF;
+}
+
+.main_section .context .left_side .info p {
+    font-family: Roboto, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29.25px;
+    text-align: left;
+    color: #A4D6CF;
+}
+
+.main_section .context .left_side .info h3 {
+    max-width: 455px;
+    max-height: 390px;
+    font-family: Playfair Display, serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 78px;
+    color: white;
+}
+
+.main_section .context .left_side .all_service button {
+    max-width: 212px;
+    max-height: 44px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 9px 50px;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #177165;
+}
+
+.main_section .context .right_side {
+    position: relative;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

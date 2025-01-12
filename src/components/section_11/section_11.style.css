@@ -1,0 +1,105 @@
+.ending {
+    background-color: #177165;
+}
+
+.ending .all_explanations {
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 7em 8em;
+}
+
+.ending .all_explanations .each_explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+}
+
+.ending .all_explanations .each_explanation h3 {
+    font-family: Playfair Display, serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.ending .all_explanations .each_explanation .links {
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+}
+
+.ending .all_explanations .each_explanation .links p {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 52px;
+    color: white;
+}
+
+.ending .all_explanations .ending_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5em;
+    background-color: #23786D;
+    padding: 4em;
+}
+
+.ending .all_explanations .ending_logo .ending_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+}
+
+.ending .all_explanations .ending_logo .ending_text p {
+    max-width: 70%;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+}
+
+.ending .all_explanations .ending_logo .ending_text .phone_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ending .all_explanations .ending_logo .ending_text .phone_number .phone_icon {
+    max-width: 44px;
+    max-height: 44px;
+    gap: 0;
+}
+
+.ending .all_explanations .ending_logo .ending_text .phone_number .call_number {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.ending .all_explanations .ending_logo .ending_text .phone_number .call_number p {
+    font-family: Roboto, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29.25px;
+    color: #A4D6CF;
+}
+
+.ending .all_explanations .ending_logo .ending_text .phone_number .call_number h4 {
+    max-width: 122px;
+    max-height: 30px;
+    gap: 0;
+    color: white;
+}

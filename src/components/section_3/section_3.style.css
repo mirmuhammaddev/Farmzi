@@ -1,0 +1,119 @@
+.services {
+    padding: 10vh 25vh;
+    background-color: #E1F4F2;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.services .service_information {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 35px;
+}
+
+.services .service_information .title {
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    max-width: 80%;
+}
+
+.services .service_information .title p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Roboto, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29.25px;
+    color: #777777;
+}
+
+.services .service_information .title h2 {
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #177165;
+}
+
+.services .service_information .carts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.services .service_information .carts .each_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.services .service_information .carts .each_cart .landscaping_services {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.services .service_information .carts .each_cart .landscaping_services p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#777777;
+}
+
+.services .service_information .carts .each_cart .landscaping_services h5 {
+    font-family: Playfair Display, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.75px;
+    color: #177165;
+}
+
+.services .more_service_button {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .more_service_button button {
+    border: 1px solid #177165;
+    background-color: transparent;
+    padding: 8px 58px;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #177165;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

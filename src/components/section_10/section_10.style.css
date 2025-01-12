@@ -1,0 +1,7 @@
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    padding: 7em 12em;
+    background-color: #E1F4F2;
+}
